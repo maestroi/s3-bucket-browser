@@ -1,0 +1,17 @@
+{
+  "s3": {
+    "region": "us-east-1",
+    "bucket": "your-bucket-name",
+    "accessKeyId": "YOUR_ACCESS_KEY_ID",
+    "secretAccessKey": "YOUR_SECRET_ACCESS_KEY",
+    "endpoint": "https://your-s3-endpoint/"
+  },
+  "redis": {
+    "host": "redis",
+    "port": 6379
+  },
+  "server": {
+    "port": 8080,
+    "host": "0.0.0.0"
+  }
+} 
